@@ -1,0 +1,14 @@
+.ServicePage{
+    height: 60vh;
+    width: 100%;
+    background: url(../../Assets/12.jpg) no-repeat center center/cover;
+    color: aliceblue;
+
+}
+
+.ServicePage-content{
+    position: absolute;
+    top:30%;
+    left:40%;
+    font-size: 50px;
+}

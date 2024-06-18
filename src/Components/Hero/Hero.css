@@ -1,0 +1,46 @@
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: url(../../Assets/12.jpg) no-repeat center center/cover;
+  
+}
+
+.hero-content{
+   
+   top:32%;
+   position: absolute;
+   left:36%;
+   
+}
+
+.hero-heading{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+    
+}
+
+.hero-para{
+   color: #fff;
+   font-size: larger;
+   margin-left: 4rem;
+   row-gap: 2rem;
+}
+
+.hero-para-button{
+    color: #fff;
+    font-size: larger;
+    margin-left: 8rem;
+    cursor: pointer;
+    border: 1px solid rgb(105, 101, 101);
+    margin-right: 15rem;
+    padding: 1.3rem 2.3rem;
+    background-color: rgba(255, 255, 255, 0.811);
+    color:#000;
+}
+
+.hero-para-button:hover{
+   color: #fff;
+   background-color: #000;
+}
+

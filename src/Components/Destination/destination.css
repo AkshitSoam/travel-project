@@ -1,0 +1,67 @@
+.destination{
+    height: 100vh;
+    width: 100%;  
+}
+
+.destination-heading{
+    text-align: center;
+}
+
+.destination-para{
+    color:gray;
+    font-weight: 700;
+}
+
+.dest-main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(48, 47, 47);
+    font-weight: 900;
+    position: relative;
+    top:5rem;
+    gap: 8rem;
+}
+
+.dest-img{
+    display: flex;
+    gap:1rem;
+  
+   
+}
+
+.dest-2{
+    position: relative;
+    top:15rem;
+}
+
+.dest-first-img{
+    width: 100%;
+    height: 100%;  
+}
+
+.dest-2-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+}
+
+.dest-2-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    
+}
+
+.dest-2-first-img{
+    position: relative;
+    top:-2rem;
+    
+}
+
+.dest-second-img{
+    position: relative;
+    top:2rem;
+}

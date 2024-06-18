@@ -1,0 +1,70 @@
+.navbar{
+    width: 100%;
+    position: absolute;
+    position:fixed;
+    z-index: 1;
+    font-family: 'Roboto';
+}
+
+.navbar-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f8f8f8;
+   border-radius: 7px;
+    margin-left: 16rem;
+    margin-right: 14rem;
+    box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, .95);
+    margin-top: 2rem;
+    
+}
+
+.navbar-text-left{
+    cursor: pointer;
+}
+
+.navbar-right-menu{
+    display: flex;
+    align-items: center;
+    
+    font-weight: 900;
+    font-size: large;
+}
+
+
+
+.routers:hover{
+  cursor: pointer;
+  background-color: aquamarine;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}
+
+.navbar-button{
+    font-size: small;
+    border: 1px solid gray;
+    color:#000;
+    background-color: #f8f8f8;
+    padding: .4rem .9rem;
+    border-radius: 4px;
+    margin-left: 1rem;
+}
+
+.navbar-button:hover{
+    background-color: #000;
+    color: #f8f8f8;
+    cursor: pointer;
+}
+
+.routers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 1rem 2rem;
+}
+
+.routes-worked{
+    text-decoration: none;
+    color: #000;
+}
